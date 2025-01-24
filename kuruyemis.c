@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int CekirdekTuru(char tur, int miktar) {
-    int fiyat = 8;
+    int fiyat = 0;
     if (tur == 'K' || tur == 'k') {
         fiyat = 100 * miktar;
     } else if (tur == 'A' || tur == 'a') {
